@@ -1,0 +1,9 @@
+[{"username": "Iza", "productName": "Apples", "productQty": "3 kg"},
+{"username": "Iza", "productName": "Eggs", "productQty": "30"},
+{"username": "Iza", "productName": "Oranges", "productQty": "2 kg"},
+{"username": "User1", "productName": "Banana", "productQty": "1 kg"},
+{"username": "User1", "productName": "Milk", "productQty": "1 l"},
+{"username": "User2", "productName": "Chocolate Cake", "productQty": "1"},
+{"username": "User2", "productName": "Avocado", "productQty": "1 kg"},
+{"username": "User2", "productName": "Cheetos", "productQty": "2"}
+]

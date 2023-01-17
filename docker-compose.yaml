@@ -1,0 +1,43 @@
+version: "4"
+services:
+  auth:
+    image: auth
+    ports:
+      - "8090:8090"
+    networks:
+      - app_net
+  products_api:
+    image: products_api
+    ports:
+      - "8096:8096"
+    networks:
+      - app_net
+  api_gateway:
+    image: api_gateway
+    ports:
+      - "8092:8092"
+    networks:
+      - app_net
+    depends_on:
+      - auth
+      - products_api
+  products_ui:
+    image: products_ui
+    ports:
+      - "8098:8098"
+    networks:
+      - app_net
+    depends_on:
+      - api_gateway
+  login_ui:
+    image: login_ui
+    stdin_open: true
+    ports:
+      - "8094:8094"
+    networks:
+      - app_net
+    depends_on:
+      - products_ui
+networks:
+  app_net:
+    driver: bridge

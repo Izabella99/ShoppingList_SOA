@@ -52,9 +52,8 @@ The API gateway is responsible for request routing. An API gateway implements so
 
 
 ## :zap: How to build & run dockerfile
-* :fork_and_knife: clone git repo `git clone https://github.com/matankila/login.git`.
-* :microscope: open cmd in the folder.  
-* :hammer: build - `docker build -t matan:v1 .`
-* :runner: run   - `docker run -p '8080:8080' --name matanC matan:v1`
+
+* :hammer: build - `docker build -t <imagename> .`
+* :runner: run   - `docker-compose up`
 * Have fun :)
 
