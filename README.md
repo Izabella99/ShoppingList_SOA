@@ -1,7 +1,7 @@
-<h1 align="center">Shopping List App</h1>
+<h1 align="center">Shopping List Software System</h1>
 <h3 align="center">SOA Project</h3>
 
-## :zap: About the application
+## :zap: About the system
 The Shopping List App is an application that allows users to create a list of items they need to purchase at a store. The app allows users to add items to their list by typing them in manually, and includes the ability to share lists with others. Shopping List App can be a useful tool for staying organized and saving time when shopping.
 
 **Web server**\
