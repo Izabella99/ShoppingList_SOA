@@ -31,9 +31,9 @@ Using Docker to containerize the application and its dependencies, making it eas
 **UML:**\
 **C4 Context:**\
 
-![C4 Context Diagram](utils/C4Context.png)
+![C4Context](utils/C4Context.png)
 **C4 Container:**\
-![C4 Container Diagram](utils/C4Container.png)
+![C4Container](utils/C4Container.png)
 
 ## SOA PATTERNS:
 **Database per Microservice Pattern**\
@@ -51,4 +51,10 @@ The API gateway is responsible for request routing. An API gateway implements so
 
 
 
+## :zap: How to build & run dockerfile
+* :fork_and_knife: clone git repo `git clone https://github.com/matankila/login.git`.
+* :microscope: open cmd in the folder.  
+* :hammer: build - `docker build -t matan:v1 .`
+* :runner: run   - `docker run -p '8080:8080' --name matanC matan:v1`
+* Have fun :)
 
