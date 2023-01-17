@@ -1,7 +1,7 @@
 <h1 align="center">Shopping List App</h1>
 <h3 align="center">SOA Project</h3>
 
-## About the application
+## :zap: About the application
 The Shopping List App is an application that allows users to create a list of items they need to purchase at a store. The app allows users to add items to their list by typing them in manually, and includes the ability to share lists with others. Shopping List App can be a useful tool for staying organized and saving time when shopping.
 
 **Web server**\
@@ -19,15 +19,15 @@ Using Docker to containerize the application and its dependencies, making it eas
 
 ![Containers](utils/Containers.png)
 
-## Used microservices:
+## :zap: Used microservices:
 **•	Gateway**\
 **•	Login**\
 **•	Authentication**\
 **•	Shopping List**\
 **•	Gateway**\
-**•	Products**\
+**•	Products**
 
-## Diagrams:
+## :triangular_ruler: Diagrams:
 **UML:**\
 **C4 Context:**\
 
@@ -35,8 +35,8 @@ Using Docker to containerize the application and its dependencies, making it eas
 **C4 Container:**\
 ![C4Container](utils/C4Container.png)
 
-## SOA PATTERNS:
-**Database per Microservice Pattern**\
+## :triangular_ruler: SOA Patterns:
+**Database per Microservice Pattern**
 
 There is a data store for each microservice (json file) Other services are unable to access data repositories that they do not control. 
 
@@ -46,7 +46,7 @@ A separate process runs alongside the main application process and provides addi
 **API gateway**\
 API gateway sits between the client apps and the microservices and is responsible for routing client requests to the appropriate microservice, manage communication between the microservices and the React app, as well as performing tasks such as authentication. 
 
-**Gateway Routing Pattern**\
+**Gateway Routing Pattern**
 The API gateway is responsible for request routing. An API gateway implements some API operations by routing requests to the corresponding service. When it receives a request, the API gateway consults a routing map that specifies which service to route the request to. 
 
 
