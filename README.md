@@ -29,8 +29,7 @@ Using Docker to containerize the application and its dependencies, making it eas
 ## :triangular_ruler: Diagrams:
 **UML:**\
 ![UML](utils/UML.png)
-**C4 Context:**\
-
+**C4 Context:**
 ![C4Context](utils/C4Context.png)
 **C4 Container:**\
 ![C4Container](utils/C4Container.png)
