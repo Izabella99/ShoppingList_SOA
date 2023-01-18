@@ -20,7 +20,6 @@ Using Docker to containerize the application and its dependencies, making it eas
 ![Containers](utils/Containers.png)
 
 ## :zap: Used microservices:
-**•	Gateway**\
 **•	Login**\
 **•	Authentication**\
 **•	Shopping List**\
@@ -29,6 +28,7 @@ Using Docker to containerize the application and its dependencies, making it eas
 
 ## :triangular_ruler: Diagrams:
 **UML:**\
+![UML](utils/UML.png)
 **C4 Context:**\
 
 ![C4Context](utils/C4Context.png)
